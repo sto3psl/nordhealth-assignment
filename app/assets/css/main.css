@@ -1,0 +1,21 @@
+@layer reset, base, theme;
+
+@import url("@nordhealth/css") layer(reset);
+
+@import url("@nordhealth/themes/lib/vet.css") layer(theme);
+
+@layer reset {
+	html,
+	body,
+	#__nuxt,
+	#app {
+		height: 100%;
+	}
+
+	body {
+		margin: 0;
+	}
+}
+
+@layer base {
+}
